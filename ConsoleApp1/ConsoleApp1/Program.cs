@@ -36,7 +36,7 @@ namespace ConsoleApp1
             //    Console.WriteLine($"  {city}");
             //}
 
-            Program program = new Program();
+            //Program program = new Program();
 
             List<int> liczby = new List<int>();
 
@@ -56,11 +56,11 @@ namespace ConsoleApp1
             
             
 
-            Console.WriteLine(program.Suma(liczby));
+            Console.WriteLine(Suma(liczby));
             Console.ReadKey();
         }
 
-        public int Suma(List<int> liczbies)
+        public static int Suma(List<int> liczbies)
         {
             int suma = 0;
             foreach (int liczba in liczbies)
